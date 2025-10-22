@@ -33,7 +33,10 @@ public class CRUDFakeRESTAPITest extends FakeApiBaseUrl {
 
        response.then()
                .statusCode(200)
-               .body("id",equalTo(payload.get("id").asInt()));
+               .body("id",equalTo(payload.get("id").asInt()),
+                       "title",equalTo(payload.get("title").asText()),
+                       "dueDate",equalTo(payload.get("dueDate").asText()),
+                       "completed",equalTo(payload.get("completed").asBoolean()));
     }
 
     @Test
@@ -46,10 +49,7 @@ public class CRUDFakeRESTAPITest extends FakeApiBaseUrl {
 
         response.then()
                 .statusCode(200)
-                .body("id",equalTo(payload.get("id").asInt()),
-                        "title",equalTo(payload.get("title").asText()),
-                        "dueDate",equalTo(payload.get("dueDate").asText()),
-                        "completed",equalTo(payload.get("completed").asBoolean()));
+                .body("id",equalTo(payload.get("id").asInt()));
     }
 
     @Test
