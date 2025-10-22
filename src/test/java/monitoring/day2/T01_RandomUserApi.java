@@ -1,13 +1,11 @@
-package monitoring;
+package monitoring.day2;
 
 import base_urls.RandomUserApi;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pojos.randomUserPojo.RandomUserResponse;
-import pojos.randomUserPojo.ResultsItem;
 import utilities.ObjectMapperUtils;
 
 import static io.restassured.RestAssured.given;

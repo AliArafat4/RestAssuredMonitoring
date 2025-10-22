@@ -1,7 +1,6 @@
-package monitoring;
+package monitoring.day1;
 
 import base_urls.RegresBaseUrl;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;

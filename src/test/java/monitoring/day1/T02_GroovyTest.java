@@ -1,4 +1,4 @@
-package monitoring;
+package monitoring.day1;
 
 import base_urls.JPHBaseUrl;
 import io.restassured.response.Response;

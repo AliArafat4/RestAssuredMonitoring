@@ -1,4 +1,4 @@
-package monitoring;
+package monitoring.day2;
 
 import org.testng.annotations.Test;
 

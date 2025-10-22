@@ -1,4 +1,4 @@
-package monitoring;
+package monitoring.day2;
 
 import base_urls.PetStoreBaseUrl;
 import io.restassured.response.Response;
