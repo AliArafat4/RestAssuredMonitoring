@@ -2,7 +2,7 @@ package pojos.userManagementEndpoints;
 
 import java.util.List;
 
-public class Response{
+public class userManagementEndpoints {
 	private List<ResponseItem> response;
 
 	public void setResponse(List<ResponseItem> response){
